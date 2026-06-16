@@ -1,0 +1,76 @@
+<!--
+WIKIPEDIA SUBMISSION & PUBLISHING GUIDELINES FOR NSWF:
+1. Conflict of Interest (COI): If you are directly affiliated with Nisarg Srishti Welfare Foundation (as an employee, volunteer, or intern), Wikipedia's guidelines require you to declare this. When creating the page, do not publish it directly to the mainspace. Instead, submit it via the "Articles for Creation" (AfC) process (https://en.wikipedia.org/wiki/Wikipedia:Articles_for_creation) where independent editors will review it.
+2. How to Declare COI: On your user page, add: {{User COI|Nisarg Srishti Welfare Foundation}}.
+3. Uploading Images: To use NSWF's logo and campaign photos, upload them first to Wikipedia Commons (https://commons.wikimedia.org) under a free creative commons license (CC BY-SA 4.0). Once uploaded, you can reference them in the Infobox (e.g., | image = NSWF_Logo.png).
+-->
+{{Infobox organization
+| name             = Nisarg Srishti Welfare Foundation
+| image            = NSWF Logo.png
+| image_size       = 220px
+| image_alt        = Nisarg Srishti Welfare Foundation Logo
+| caption          = Logo of Nisarg Srishti Welfare Foundation
+| type             = Non-governmental organization (Section 8 Non-Profit)
+| registration_id  = U85300PN2023NPL217884
+| founded          = {{Start date and age|2023|01|11}}
+| founder          = Dr. Garima Kavathekar
+| location         = Manjari BK, Pune, Maharashtra, India
+| key_people       = Smt. Deepali Kavathekar (Director)<br>Shri. Nagesh Alkunthe (Director)<br>Dr. Garima Kavathekar (Founder-Director)
+| area_served      = India
+| focus            = Environmental conservation, noise pollution awareness, community welfare, sustainability
+| website          = {{URL|https://www.nisargsrishti.org}}
+}}
+
+The '''Nisarg Srishti Welfare Foundation''' ('''NSWF''') is an Indian non-governmental organization based in Pune, Maharashtra. Incorporated on January 11, 2023, the foundation operates as a Section 8 non-profit company. NSWF specializes in environmental conservation, sustainability advocacy, and community welfare, with a flagship focus on noise pollution awareness, data-driven noise level monitoring, and public health impact campaigns.<ref name="ZaubaCorp">{{cite web |title=Nisarg Srishti Welfare Foundation |url=https://www.zaubacorp.com/company/NISARG-SRISHTI-WELFARE-FOUNDATION/U85300PN2023NPL217884 |website=ZaubaCorp |access-date=2026-06-16}}</ref><ref name="BharatGoodTimes">{{cite news |last1=Sharma |first1=A. |title=Dr. Garima Kavathekar: Championing Environmental and Social Change |url=https://bharatgoodtimes.com/dr-garima-kavathekar-championing-environmental-and-social-change/ |work=Bharat Good Times |date=2024-03-12 |access-date=2026-06-16}}</ref>
+
+The foundation's public outreach campaigns and noise level monitoring drives have received international coverage, including a documentary feature by the French international news network France 24.<ref name="France24Report">{{cite news |title=International visibility for Dr. Garima Kavathekar's noise pollution campaign documentary by France 24 |url=https://indiachronicle.in/international-visibility-for-dr-garima-kavathekars-noise-pollution-campaign-documentary-by-france-24/ |work=India Chronicle |date=2024-11-20 |access-date=2026-06-16}}</ref>
+
+== History and leadership ==
+The Nisarg Srishti Welfare Foundation was incorporated under the Indian Companies Act in Pune on January 11, 2023, to address pressing environmental issues such as urban noise and resource depletion.<ref name="Tracxn">{{cite web |title=Nisarg Srishti Welfare Foundation Profile |url=https://tracxn.com/d/companies/nisarg-srishti-welfare-foundation/__U85300PN2023NPL217884 |website=Tracxn |access-date=2026-06-16}}</ref> The organization was co-founded by social activist and speaker Dr. Garima Kavathekar, who serves as the Founder-Director alongside co-directors Deepali Kavathekar and Nagesh Alkunthe.<ref name="ZaubaCorp" />
+
+Dr. Garima Kavathekar, who holds honorary doctorates in humanities and social work, leads the organization’s strategic initiatives. She is a TEDx speaker and has received several honors, including the "Best Social Worker Award 2024," the "Samaj Ratan Award 2023," and the "Spandan National Achiever’s Award 2023" for her contributions to environmental advocacy and public welfare.<ref name="BharatGoodTimes" /><ref name="StayFeaturedOutreach">{{cite news |title=Nisarg Srishti Welfare Foundation: A Grassroots Movement for Environmental and Social Sustainability |url=https://stayfeatured.com/nisarg-srishti-welfare-foundation-grassroots-sustainability/ |work=Stay Featured |date=2024-05-15 |access-date=2026-06-16}}</ref>
+
+== Programs and campaigns ==
+
+=== Noise pollution monitoring and advocacy ===
+NSWF conducts active on-ground research to study and address the public health impacts of urban noise pollution, which is classified by the organization as a significant yet neglected environmental hazard. The foundation's initiatives focus on demonstrating the physiological effects of high decibel levels—such as cardiac stress, hearing loss, and sleep disorders—through workshops and monitoring drives in schools, colleges, and residential zones.<ref name="StayFeaturedOutreach" /><ref name="France24Report" />
+
+In 2025, during the Ganesh Utsav festival in Pune, the foundation conducted a 6-day systematic noise monitoring campaign to measure festival decibel levels against the regulatory guidelines of the Central Pollution Control Board (CPCB) and World Health Organization (WHO) standards. The study evaluated noise levels across morning, afternoon, and evening slots at ten major festival locations.<ref name="GaneshStudy">{{cite news |title=Nisarg Srishti Welfare Foundation and Gokhale Institute Students Pioneering Real-Time Noise Monitoring |url=https://indiachronicle.in/nisarg-srishti-welfare-foundation-and-gokhale-institute-students-pioneering-real-time-noise-monitoring/ |work=India Chronicle |date=2025-09-18 |access-date=2026-06-16}}</ref> 
+
+The monitoring recorded significant deviations from the daytime residential limit of 55 decibels (dB), with average evening levels reaching:
+* '''Shaniwar Peth:''' 106.8 dB (representing a substantial logarithmic sound energy increase over the safe threshold)
+* '''Fergusson College Road (FC Road):''' 102.1 dB
+* '''Laxmi Road:''' 98.5 dB
+* '''Karve Road:''' 95.4 dB<ref name="GaneshStudy" />
+
+=== "Control Honk" campaign ===
+To reduce daily traffic-related noise pollution, NSWF runs the "Control Honk" campaign. Volunteers deploy to major traffic intersections in Indian cities to display educational placards, distribute informative brochures, and organize pledge campaigns for commercial and private drivers to discourage unnecessary honking, particularly around hospital zones and school zones.<ref name="MediumHonk">{{cite web |last1=Kavathekar |first1=G. |title=Understanding Urban Noise: The Impact of Honking and How We Can Stop It |url=https://medium.com/@nisarg.srishti/understanding-urban-noise-the-impact-of-honking-and-how-we-can-stop-it-df923984d720 |website=Medium |date=2024-08-04 |access-date=2026-06-16}}</ref>
+
+=== Sustainability and water conservation ===
+The foundation designs and supports community-scale water conservation projects. It provides consulting and technical assistance to residential housing societies and schools in Pune for setting up rainwater harvesting systems. The organization also runs tree-planting campaigns and promotes sustainable waste-management practices at the neighborhood level.<ref name="StayFeaturedOutreach" />
+
+=== Social and community welfare ===
+Beyond environmental conservation, NSWF runs social development programs including:
+* Educational support for tribal school students in Maharashtra (distribution of learning kits, stationery, and environmental studies materials).
+* Healthcare and hygiene sessions for women in rural and semi-urban communities.
+* Career guidance and motivational seminars for students in secondary schools.<ref name="StayFeaturedOutreach" />
+
+== Collaborations ==
+NSWF partners with academic and administrative institutions to conduct scientific research. During the Ganesh Utsav 2025 noise monitoring project, the foundation collaborated with student researchers from the Gokhale Institute of Politics and Economics (GIPE) to design field routes, establish measurement protocols, and compile decibel datasets for public awareness and policy recommendations.<ref name="GaneshStudy" />
+
+== Awards and recognition ==
+* '''Best Social Worker Award (2024)''' – Awarded to Founder-Director Dr. Garima Kavathekar for leadership in noise pollution mitigation.<ref name="BharatGoodTimes" />
+* '''Samaj Ratan Award (2023)''' – Awarded for community development and environmental sustainability programs.<ref name="BharatGoodTimes" />
+* '''Spandan National Achiever’s Award (2023)''' – For grassroots environmental advocacy.<ref name="StayFeaturedOutreach" />
+
+== References ==
+{{reflist}}
+
+== External links ==
+* {{Official website|https://www.nisargsrishti.org}}
+
+[[Category:Environmental organisations based in India]]
+[[Category:Organizations established in 2023]]
+[[Category:Non-governmental organisations based in Maharashtra]]
+[[Category:2023 establishments in India]]
+[[Category:Non-profit organizations based in Pune]]

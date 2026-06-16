@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisarg Srishti Welfare Foundation - Digital Documentation & Previewer Portal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Premium Ambient Background Glows -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <img src="media/nswf_logo.png" alt="NSWF Logo" class="brand-logo">
+                <div class="brand-text">
+                    <h1>NSWF</h1>
+                    <span class="subtext">Digital Portal</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <button class="nav-item active" data-tab="dashboard">
+                    <i class="fa-solid fa-chart-line"></i>
+                    <span>Dashboard</span>
+                </button>
+                <button class="nav-item" data-tab="dossier">
+                    <i class="fa-solid fa-file-contract"></i>
+                    <span>Digital Dossier</span>
+                </button>
+                <button class="nav-item" data-tab="wiki-preview">
+                    <i class="fa-brands fa-wikipedia-w"></i>
+                    <span>Wikipedia Preview</span>
+                </button>
+                <button class="nav-item" data-tab="noise-analyzer">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <span>Noise Analyzer</span>
+                </button>
+                <button class="nav-item" data-tab="media-gallery">
+                    <i class="fa-solid fa-images"></i>
+                    <span>Media Assets</span>
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <p>U85300PN2023NPL217884</p>
+                <span>© 2026 NSWF India</span>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="top-header">
+                <div class="header-title">
+                    <h2 id="page-title">Dashboard Overview</h2>
+                    <p id="page-subtitle">Welcome to the NSWF interactive digital documentation system</p>
+                </div>
+                <div class="header-actions">
+                    <a href="digital_documentation.md" class="btn btn-secondary" download>
+                        <i class="fa-solid fa-download"></i> Download MD
+                    </a>
+                    <a href="wikipedia_draft.mw" class="btn btn-primary" download>
+                        <i class="fa-solid fa-code"></i> Wiki Source
+                    </a>
+                </div>
+            </header>
+
+            <!-- TAB 1: DASHBOARD -->
+            <section id="dashboard" class="tab-content active">
+                <div class="grid grid-3">
+                    <div class="card stat-card">
+                        <div class="stat-icon icon-green"><i class="fa-solid fa-leaf"></i></div>
+                        <div class="stat-info">
+                            <h3>Est. Incorporation</h3>
+                            <p class="stat-value">Jan 11, 2023</p>
+                            <span class="stat-label"> Pune RoC Registered</span>
+                        </div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-icon icon-blue"><i class="fa-solid fa-volume-xmark"></i></div>
+                        <div class="stat-info">
+                            <h3>Max Festival Noise</h3>
+                            <p class="stat-value text-danger">106.8 dB</p>
+                            <span class="stat-label">Shaniwar Peth (Pune 2025)</span>
+                        </div>
+                    </div>
+                    <div class="card stat-card">
+                        <div class="stat-icon icon-purple"><i class="fa-solid fa-award"></i></div>
+                        <div class="stat-info">
+                            <h3>National Awards</h3>
+                            <p class="stat-value">20+ Awards</p>
+                            <span class="stat-label">To Founder Dr. Garima K.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-2-1 mt-4">
+                    <div class="card chart-preview-card">
+                        <div class="card-header">
+                            <h3>The Brutal Reality: Sound Energy Growth</h3>
+                            <span class="badge badge-danger">Logarithmic Scale</span>
+                        </div>
+                        <p class="card-desc">Unlike linear units, decibels increase exponentially. A +10 dB shift represents 10x physical sound energy.</p>
+                        <div class="visual-comparison-container">
+                            <div class="comparison-row">
+                                <div class="comp-label">WHO Safe Threshold (55 dB)</div>
+                                <div class="comp-bar-wrapper">
+                                    <div class="comp-bar" style="width: 10%;"></div>
+                                </div>
+                                <div class="comp-value">Baseline (1x)</div>
+                            </div>
+                            <div class="comparison-row warning">
+                                <div class="comp-label">Hearing Danger Level (85 dB)</div>
+                                <div class="comp-bar-wrapper">
+                                    <div class="comp-bar warning-bar" style="width: 40%;"></div>
+                                </div>
+                                <div class="comp-value">1,000x Energy</div>
+                            </div>
+                            <div class="comparison-row danger">
+                                <div class="comp-label">Shaniwar Peth Festival (106.8 dB)</div>
+                                <div class="comp-bar-wrapper">
+                                    <div class="comp-bar danger-bar" style="width: 100%;"></div>
+                                </div>
+                                <div class="comp-value text-danger">150,000x Energy</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card info-quick-card">
+                        <h3>Key Initiatives</h3>
+                        <ul class="initiative-list">
+                            <li>
+                                <div class="init-dot dot-green"></div>
+                                <div class="init-info">
+                                    <h4>Noise Level Monitoring</h4>
+                                    <p>Conducting real-time scientific decibel tracking with college students.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="init-dot dot-orange"></div>
+                                <div class="init-info">
+                                    <h4>"Control Honk" Drives</h4>
+                                    <p>Direct driver counseling at high-density traffic junctions.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="init-dot dot-blue"></div>
+                                <div class="init-info">
+                                    <h4>Rainwater Harvesting</h4>
+                                    <p>Evaluating and setting up water-recharge systems in housing units.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 2: DIGITAL DOSSIER -->
+            <section id="dossier" class="tab-content">
+                <div class="card markdown-viewer">
+                    <div class="viewer-actions">
+                        <span class="file-path"><i class="fa-regular fa-file-lines"></i> digital_documentation.md</span>
+                        <span class="badge badge-success">Markdown Rendered</span>
+                    </div>
+                    <div class="markdown-body">
+                        <!-- Dossier Content Rendered here via JS -->
+                        <div id="dossier-rendered-content">Loading dossier...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 3: WIKIPEDIA PREVIEW -->
+            <section id="wiki-preview" class="tab-content">
+                <div class="wiki-preview-layout">
+                    <!-- Left: MediaWiki Source -->
+                    <div class="wiki-editor">
+                        <div class="editor-header">
+                            <span><i class="fa-solid fa-code"></i> wikipedia_draft.mw</span>
+                            <span class="badge">Raw WikiText</span>
+                        </div>
+                        <textarea id="wiki-source-textarea" readonly></textarea>
+                    </div>
+
+                    <!-- Right: Wikipedia Live Render -->
+                    <div class="wiki-browser">
+                        <div class="browser-address-bar">
+                            <div class="browser-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="browser-url">
+                                <i class="fa-solid fa-lock"></i> en.wikipedia.org/wiki/Nisarg_Srishti_Welfare_Foundation
+                            </div>
+                        </div>
+                        <div class="wiki-article-body">
+                            <!-- Wikipedia replica container -->
+                            <div class="wiki-page-header">
+                                <h1 class="firstHeading">Nisarg Srishti Welfare Foundation</h1>
+                                <p class="siteSub">From Wikipedia, the free encyclopedia</p>
+                            </div>
+
+                            <div class="wiki-article-grid">
+                                <div class="wiki-main-column">
+                                    <p>The <b>Nisarg Srishti Welfare Foundation</b> (<b>NSWF</b>) is an Indian non-governmental organization based in Pune, Maharashtra. Incorporated on January 11, 2023, the foundation operates as a Section 8 non-profit company. NSWF specializes in environmental conservation, sustainability advocacy, and community welfare, with a flagship focus on noise pollution awareness, data-driven noise level monitoring, and public health impact campaigns.<sup><a href="#cite_note-Zauba">[1]</a></sup><sup><a href="#cite_note-BGT">[2]</a></sup></p>
+                                    
+                                    <p>The foundation's public outreach campaigns and noise level monitoring drives have received international coverage, including a documentary feature by the French international news network France 24.<sup><a href="#cite_note-F24">[3]</a></sup></p>
+
+                                    <h2 class="wiki-section-title">History and leadership</h2>
+                                    <p>The Nisarg Srishti Welfare Foundation was incorporated under the Indian Companies Act in Pune on January 11, 2023, to address pressing environmental issues such as urban noise and resource depletion.<sup><a href="#cite_note-Tracxn">[4]</a></sup> The organization was co-founded by social activist and speaker Dr. Garima Kavathekar, who serves as the Founder-Director alongside co-directors Deepali Kavathekar and Nagesh Alkunthe.<sup><a href="#cite_note-Zauba">[1]</a></sup></p>
+                                    
+                                    <p>Dr. Garima Kavathekar, who holds honorary doctorates in humanities and social work, leads the organization’s strategic initiatives. She is a TEDx speaker and has received several honors, including the "Best Social Worker Award 2024," the "Samaj Ratan Award 2023," and the "Spandan National Achiever’s Award 2023" for her contributions to environmental advocacy and public welfare.<sup><a href="#cite_note-BGT">[2]</a></sup><sup><a href="#cite_note-SF">[5]</a></sup></p>
+
+                                    <h2 class="wiki-section-title">Programs and campaigns</h2>
+                                    
+                                    <h3 class="wiki-subsection-title">Noise pollution monitoring and advocacy</h3>
+                                    <p>NSWF conducts active on-ground research to study and address the public health impacts of urban noise pollution, which is classified by the organization as a significant yet neglected environmental hazard. The foundation's initiatives focus on demonstrating the physiological effects of high decibel levels—such as cardiac stress, hearing loss, and sleep disorders—through workshops and monitoring drives in schools, colleges, and residential zones.<sup><ref name="SF" /></sup><sup><ref name="F24" /></sup></p>
+
+                                    <p>In 2025, during the Ganesh Utsav festival in Pune, the foundation conducted a 6-day systematic noise monitoring campaign to measure festival decibel levels against the regulatory guidelines of the Central Pollution Control Board (CPCB) and World Health Organization (WHO) standards. The study evaluated noise levels across morning, afternoon, and evening slots at ten major festival locations.<sup><a href="#cite_note-Ganesh">[6]</a></sup> The study recorded average evening noise levels reaching 106.8 dB in Shaniwar Peth and 102.1 dB on Fergusson College Road (FC Road).<sup><a href="#cite_note-Ganesh">[6]</a></sup></p>
+
+                                    <h3 class="wiki-subsection-title">"Control Honk" campaign</h3>
+                                    <p>To reduce daily traffic-related noise pollution, NSWF runs the "Control Honk" campaign. Volunteers deploy to major traffic intersections in Indian cities to display educational placards, distribute informative brochures, and organize pledge campaigns for commercial and private drivers to discourage unnecessary honking.<sup><a href="#cite_note-Medium">[7]</a></sup></p>
+                                </div>
+
+                                <!-- Wiki Infobox -->
+                                <aside class="wiki-infobox">
+                                    <div class="infobox-title">Nisarg Srishti Welfare Foundation</div>
+                                    <div class="infobox-image-container">
+                                        <img src="media/nswf_logo.png" alt="NSWF Logo" class="infobox-image">
+                                        <div class="infobox-caption">Logo of Nisarg Srishti Welfare Foundation</div>
+                                    </div>
+                                    <table class="infobox-table">
+                                        <tr>
+                                            <th>Type</th>
+                                            <td>Non-governmental organization (Section 8 Non-Profit)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Registration ID</th>
+                                            <td>U85300PN2023NPL217884</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Founded</th>
+                                            <td>January 11, 2023</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Founder</th>
+                                            <td>Dr. Garima Kavathekar</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Location</th>
+                                            <td>Pune, Maharashtra, India</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Key people</th>
+                                            <td>Smt. Deepali Kavathekar (Director)<br>Shri. Nagesh Alkunthe (Director)<br>Dr. Garima Kavathekar (Founder-Director)</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Focus</th>
+                                            <td>Environmental conservation, noise pollution awareness, community welfare, sustainability</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Website</th>
+                                            <td><a href="https://www.nisargsrishti.org" target="_blank">nisargsrishti.org</a></td>
+                                        </tr>
+                                    </table>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 4: NOISE LEVEL ANALYZER -->
+            <section id="noise-analyzer" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Interactive Decibel & Sound Energy Calculator</h3>
+                        <span class="badge badge-primary">Pune Festival Study Data</span>
+                    </div>
+                    <p class="card-desc">Click on any monitoring location to calculate how much louder it was compared to CPCB and WHO safe limits (55 dB for residential day zones).</p>
+                    
+                    <div class="analyzer-grid">
+                        <div class="location-buttons-panel">
+                            <h4>Select Location:</h4>
+                            <div class="location-btn-group" id="location-selector">
+                                <!-- Location buttons rendered dynamically -->
+                            </div>
+                        </div>
+                        <div class="analyzer-results-panel">
+                            <div class="results-card">
+                                <h4 id="calc-loc-name">Shaniwar Peth (Evening)</h4>
+                                <div class="decibel-meter">
+                                    <div class="meter-value" id="calc-db-val">106.8 dB</div>
+                                    <div class="meter-bar-outer">
+                                        <div class="meter-bar-inner danger-bg" id="calc-meter-bar" style="width: 95%;"></div>
+                                    </div>
+                                </div>
+                                <div class="calculator-metrics">
+                                    <div class="metric-row">
+                                        <span>CPCB Safe Residential daytime limit:</span>
+                                        <strong>55 dB</strong>
+                                    </div>
+                                    <div class="metric-row">
+                                        <span>Decibel difference:</span>
+                                        <span class="text-danger font-bold" id="calc-db-diff">+51.8 dB</span>
+                                    </div>
+                                    <div class="metric-row main-result">
+                                        <span>Physical Sound Energy Increase:</span>
+                                        <strong class="text-danger" id="calc-energy-mult">151,356 times louder</strong>
+                                    </div>
+                                </div>
+                                <div class="health-impact-box" id="calc-health-desc">
+                                    <i class="fa-solid fa-circle-exclamation"></i>
+                                    <span>Immediate hearing damage threshold for single exposure is 120 dB. Prolonged exposure to 106.8 dB causes permanent sensorineural hearing loss, severe sleep disruption, and cardiovascular stress.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB 5: MEDIA GALLERY -->
+            <section id="media-gallery" class="tab-content">
+                <div class="grid grid-3">
+                    <div class="card media-card">
+                        <div class="media-container">
+                            <img src="media/nswf_logo.png" alt="NSWF Logo" class="gallery-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>Official Brand Logo</h3>
+                            <p>Brand logo concept for NSWF combining environmental foliage with noise mitigation curves.</p>
+                            <span class="media-badge">Brand Asset</span>
+                        </div>
+                    </div>
+                    <div class="card media-card">
+                        <div class="media-container">
+                            <img src="media/nswf_noise_monitoring.png" alt="Noise Level Monitoring" class="gallery-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>Festival Noise Monitoring</h3>
+                            <p>Volunteers carrying out scientific sound tracking with specialized decibel meters during peak procession hours in Pune.</p>
+                            <span class="media-badge">Campaign Photo</span>
+                        </div>
+                    </div>
+                    <div class="card media-card">
+                        <div class="media-container">
+                            <img src="media/nswf_control_honk.png" alt="Control Honk Outreach" class="gallery-img">
+                        </div>
+                        <div class="card-body">
+                            <h3>"Control Honk" Campaign</h3>
+                            <p>On-road awareness session at traffic signals, encouraging drivers to respect silence zones.</p>
+                            <span class="media-badge">Campaign Photo</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
